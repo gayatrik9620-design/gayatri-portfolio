@@ -1,0 +1,176 @@
+/* ============================= */
+/* Basic Page Setup */
+/* ============================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ============================= */
+/* Navigation Bar */
+/* ============================= */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* ============================= */
+/* Hero / Home Section */
+/* ============================= */
+
+#home {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 10%;
+}
+
+#home h1 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+#home h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#home p {
+    max-width: 650px;
+    font-size: 18px;
+}
+
+
+/* ============================= */
+/* General Sections */
+/* ============================= */
+
+section {
+    padding: 60px 10%;
+}
+
+
+/* ============================= */
+/* About Section */
+/* ============================= */
+
+#about {
+    max-width: 900px;
+    margin: auto;
+}
+
+#about p {
+    font-size: 17px;
+}
+
+
+/* ============================= */
+/* Headings */
+/* ============================= */
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+/* ============================= */
+/* Paragraphs */
+/* ============================= */
+
+p {
+    line-height: 1.6;
+}
+
+
+/* ============================= */
+/* Skills Section */
+/* ============================= */
+
+#skills {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#skills h3 {
+    margin-top: 30px;
+}
+
+#skills ul {
+    padding-left: 20px;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+
+/* ============================= */
+/* Projects Section */
+/* ============================= */
+
+#projects {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#projects > div {
+    padding: 30px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+#projects h3 {
+    margin-top: 0;
+}
+
+#projects a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+
+/* ============================= */
+/* Contact Section */
+/* ============================= */
+
+#contact {
+    max-width: 900px;
+    margin: auto;
+}
+
+#contact a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact p {
+    margin-bottom: 15px;
+}
+
+
+/* ============================= */
+/* Footer */
+/* ============================= */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
